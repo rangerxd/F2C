@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coloryellow">
+
+
+    <TextView
+        android:id="@+id/txt_abtus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autoText="false"
+        android:breakStrategy="balanced"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="  F2C is a revolutionary farming mobile based application. It allows you to conveniently shop on the go, search for your desired product. It provides complete information about the product for sell and for more information you can easily contact the farmer ."
+        android:textAlignment="viewStart" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  You can add new products it may be in text or image form. The customer can add their requirements easily so that they can get their product as early as possible. This application will bring the world closer and has increased the profits for farmer as well as consumers."
+
+        android:padding="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:breakStrategy="balanced"
+    android:inputType="textMultiLine"/>
+</LinearLayout>
